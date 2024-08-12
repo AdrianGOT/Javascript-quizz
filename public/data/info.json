@@ -1,0 +1,200 @@
+{
+    "questions":  [
+        {
+            "id": 1,
+            "question": "¿Cuál es el resultado del siguiente código?",
+            "code": "console.log(typeof NaN);",
+            "options": [
+              "number",
+              "string",
+              "undefined",
+              "object"
+            ],
+            "correctAnswer": "number"
+          },
+          {
+            "id": 2,
+            "question": "¿Qué hace el siguiente fragmento de código?",
+            "code": "let x = 10; x = x++;",
+            "options": [
+              "x será 11",
+              "x será 10",
+              "x será undefined",
+              "x será 9"
+            ],
+            "correctAnswer": "x será 10"
+          },
+          {
+            "id": 3,
+            "question": "¿Cuál es el resultado del siguiente código?",
+            "code": "console.log([] + {});",
+            "options": [
+              "SyntaxError",
+              "[]",
+              "{}",
+              "[object Object]"
+            ],
+            "correctAnswer": "[object Object]"
+          },
+          {
+            "id": 4,
+            "question": "¿Qué imprime el siguiente código?",
+            "code": "console.log(0.1 + 0.2 === 0.3);",
+            "options": [
+              "true",
+              "false",
+              "undefined",
+              "NaN"
+            ],
+            "correctAnswer": "false"
+          },
+          {
+            "id": 5,
+            "question": "¿Qué salida produce el siguiente código?",
+            "code": "function foo() { return 1; } function foo() { return 2; } console.log(foo());",
+            "options": [
+              "1",
+              "2",
+              "undefined",
+              "SyntaxError"
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": 6,
+            "question": "¿Cómo se puede agregar una propiedad a un objeto en JavaScript?",
+            "code": "let obj = {}; obj.newProp = 'value';",
+            "options": [
+              "obj.newProp = 'value';",
+              "obj['newProp'] = 'value';",
+              "obj.set('newProp', 'value');",
+              "Ambas options anteriores"
+            ],
+            "correctAnswer": "Ambas options anteriores"
+          },
+          {
+            "id": 7,
+            "question": "¿Qué resultado produce el siguiente código?",
+            "code": "console.log('5' - 3);",
+            "options": [
+              "5",
+              "2",
+              "'2'",
+              "'5' - '3'"
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": 8,
+            "question": "¿Qué hará el siguiente código?",
+            "code": "let a = [1, 2, 3]; let b = a; b.push(4); console.log(a);",
+            "options": [
+              "[1, 2, 3, 4]",
+              "[1, 2, 3]",
+              "[4]",
+              "[]"
+            ],
+            "correctAnswer": "[1, 2, 3, 4]"
+          },
+          {
+            "id": 9,
+            "question": "¿Qué imprimirá el siguiente código?",
+            "code": "console.log(2 + '2');",
+            "options": [
+              "4",
+              "'22'",
+              "'2'",
+              "undefined"
+            ],
+            "correctAnswer": "'22'"
+          },
+          {
+            "id": 10,
+            "question": "¿Qué hace el siguiente código?",
+            "code": "const arr = [1, 2, 3]; arr.length = 2; console.log(arr);",
+            "options": [
+              "[1, 2]",
+              "[1, 2, 3]",
+              "[2, 3]",
+              "[]"
+            ],
+            "correctAnswer": "[1, 2]"
+          },
+          {
+            "id": 11,
+            "question": "¿Cuál es el resultado de este código?",
+            "code": "console.log(3 == '3');",
+            "options": [
+              "true",
+              "false",
+              "undefined",
+              "NaN"
+            ],
+            "correctAnswer": "true"
+          },
+          {
+            "id": 12,
+            "question": "¿Cómo se declara una función en JavaScript?",
+            "code": "function myFunction() { return 'Hello'; }",
+            "options": [
+              "function myFunction() { return 'Hello'; }",
+              "let myFunction = function() { return 'Hello'; };",
+              "const myFunction = () => 'Hello';",
+              "Todas las anteriores"
+            ],
+            "correctAnswer": "Todas las anteriores"
+          },
+          {
+            "id": 13,
+            "question": "¿Qué hará el siguiente código?",
+            "code": "console.log([] == ![]);",
+            "options": [
+              "true",
+              "false",
+              "undefined",
+              "SyntaxError"
+            ],
+            "correctAnswer": "true"
+          },
+          {
+            "id": 14,
+            "question": "¿Cuál es el valor de `a` después de ejecutar el siguiente código?",
+            "code": "let a = { x: 1 }; a = a.x + 1; console.log(a);",
+            "options": [
+              "1",
+              "2",
+              "undefined",
+              "NaN"
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": 15,
+            "question": "¿Qué devolverá el siguiente código?",
+            "code": "console.log(1 + 2 + '3');",
+            "options": [
+              "6",
+              "'33'",
+              "'123'",
+              "NaN"
+            ],
+            "correctAnswer": "'33'"
+          },
+          {
+            "id": 16,
+            "question": "¿Cómo se comprueba si una variable es un array en JavaScript?",
+            "code": "Array.isArray(variable);",
+            "options": [
+              "Array.isArray(variable);",
+              "variable instanceof Array;",
+              "typeof variable === 'array';",
+              "Ambas primeras options"
+            ],
+            "correctAnswer": "Ambas primeras options"
+          }
+                  
+    ]
+      
+}
+
+  
